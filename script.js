@@ -17,7 +17,7 @@ if(randomNumber1 > randomNumber2){
 } else if(randomNumber2 > randomNumber1){
     heading.innerText = 'Player 2 Wins!'
 } else{
-    heading.innerText = 'Draw !'
+    heading.innerText = 'Draw!'
 }
 
 button.addEventListener('click', () => {
